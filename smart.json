@@ -1,0 +1,8 @@
+{
+  "packages": {
+    "velocity": {},
+    "jasmine-unit": {},
+    "mocha-web-velocity": {},
+    "velocity-html-reporter": {}
+  }
+}
