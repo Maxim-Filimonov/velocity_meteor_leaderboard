@@ -1,0 +1,16 @@
+box: jparyani/meteor@8.0.0
+build:
+  steps:
+    - script:
+        name: echo nodejs information
+        code: |
+          echo "node version $(node -v) running"
+          echo "npm version $(npm -v) running"
+    - script:
+        name: install velocity-ci
+        code: |
+          npm install meteorite
+          npm install git+https://github.com/rissem/velocity-ci
+    - script:
+        name: run tests
+        code: bash test.sh
