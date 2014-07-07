@@ -10,7 +10,7 @@ build:
         name: install velocity-ci
         code: |
           npm install meteorite
-          npm install git+https://github.com/Maxim-Filimonov/velocity-ci#7749292b8c92173f919f0f3f3d8ad8374e8c9711
+          npm install git+https://github.com/Maxim-Filimonov/velocity-ci#7993ea06fcb866dd2dec4d8a9ecf8a9854f7cb58
     - script:
         name: run tests
         code: VELOCITY_DEBUG=1 bash test.sh
